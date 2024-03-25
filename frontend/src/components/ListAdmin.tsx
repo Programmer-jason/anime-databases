@@ -7,7 +7,7 @@ const ListAdmin = () => {
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
-        axios.get('http://localhost:2000/admin/getAdmin')
+        axios.get('https://anime-databases-apis.onrender.com/admin/getAdmin')
         .then((res) => {
             setAdminList(res.data)
             setLoading(true)
