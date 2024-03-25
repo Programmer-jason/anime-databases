@@ -7,7 +7,7 @@ const ListAnime = () => {
   const [loading, setLoading] = useState(false)
     
   useEffect(() => {
-      axios.get('http://localhost:2000/anime/listanime')
+      axios.get('https://anime-database-api.onrender.com')
       .then((res) => {
           setAnimeList(res.data)
           setLoading(true)
