@@ -15,8 +15,6 @@ function AnimeCards() {
         setLoading(true)
     }, [])
 
-    console.log('again')
-
     return (
         <section className="w-full">
             <div className="border-teal-900 border-y-2 text-white p-1 text-lg text-center mx-auto rounded-sm mt-4" id="mostView">Most View</div>
