@@ -11,7 +11,7 @@ const AdminSignin = () => {
     e.preventDefault()
 
       axios
-      .post('http://localhost:2000/admin/adminsignin', {
+      .post('https://anime-databases-apis.onrender.com/admin/adminsignin', {
         email,
         pass: password
       })
