@@ -23,7 +23,7 @@ const AddAdmin = () => {
     function submitHandler(e: any){
         e.preventDefault();
         
-        axios.post("http://localhost:2000/admin/addadmin" , {
+        axios.post("https://anime-databases-apis.onrender.com/admin/addadmin" , {
           ...addAdmin
         })
         .then((res) => {
