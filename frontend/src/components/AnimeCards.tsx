@@ -6,7 +6,7 @@ function AnimeCards() {
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
-        axios.get('https://anime-database-apis.onrender.com/anime/listanime')
+        axios.get('https://anime-databases-apis.onrender.com/anime/listanime')
         .then((res) => {
             setAnimeList(res.data)
             setLoading(true)
