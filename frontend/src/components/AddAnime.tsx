@@ -41,7 +41,7 @@ const AddAnime = () => {
     const formData = new FormData()
     formData.append('file', file)
     
-    axios.post("http://localhost:2000/anime/addanime", input)
+    axios.post("https://anime-databases-apis.onrender.com/anime/addanime", input)
     .then((res) => {
       console.log(res.data.message)
       navigate('/adminPage/listAnime')
@@ -52,7 +52,7 @@ const AddAnime = () => {
       navigate('/admin/ListAnime')
     })
 
-    axios.post("http://localhost:2000/anime/uploads", formData,
+    axios.post("https://anime-databases-apis.onrender.com/anime/uploads", formData,
       {
         headers: {
           'Content-Type': 'multipart/form-data'
