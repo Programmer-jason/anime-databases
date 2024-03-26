@@ -2,7 +2,7 @@ import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from "react-icon
 
 function Footer() {
   return ( 
-    <section className='flex flex-col items-center w-full h-28 bg-gray-900 text-white mt-40 p-10 justify-center gap-3'>
+    <section className='flex flex-col items-center w-full h-1/5 bg-gray-900 text-white mt-60 p-10 justify-center gap-3'>
 
         {/* FOLLLOW US */}
         <div className="flex flex-col justify-center items-center">
@@ -14,7 +14,7 @@ function Footer() {
             </div>
         </div>
                 {/* COPYRIGHT */}
-        <div className="w-full border-t-2 border-t-gray-800 text-center">
+        <div className="w-full border-t-[1px] border-t-gray-800 text-center">
             <h2>&copy; Copyright 2024</h2>
         </div>
     </section>

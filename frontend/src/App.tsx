@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar"
 function App() {
 
   return (
-    <main className="w-screen bg-teal-950 h-screen overflow-auto text-sm">
+    <>
+    <main className="w-screen bg-teal-950 overflow-auto text-sm h-screen">
         <Navbar />
 
         {/* BILLBOARD */}
@@ -18,6 +19,7 @@ function App() {
 
         <Footer />
     </main>
+    </>
 
   )
 }
