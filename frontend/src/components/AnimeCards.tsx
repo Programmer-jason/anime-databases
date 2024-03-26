@@ -22,11 +22,11 @@ function AnimeCards() {
                 <div>loading...</div>
                     :
                 (
-                    <div className="flex lg:w-3/4 gap-4 justify-center p-8 text-center flex-wrap mx-auto">
+                    <div className="flex justify-center lg:gap-4 lg:p-8 gap-2 p-2 text-center flex-wrap">
 
                         {animeList!.map((v: any, i: number) => {
                             return (
-                                <div className="w-44 shadow-md bg-teal-900 rounded-md text-white p-1" key={i}>
+                                <div className="w-40 shadow-md bg-teal-900 rounded-md text-white p-1" key={i}>
                                     <div className="h-10 bg-teal-900">{v.anime_name}</div>
                                     <img src={`../../uploads/${v.image}`} className="w-full h-44 object-fill" />
                                     <div>Ratings: {v.ratings}</div>
@@ -42,11 +42,11 @@ function AnimeCards() {
                 <div>loading...</div>
                     :
                 (
-                    <div className="flex lg:w-3/4 gap-4 justify-center p-8 text-center flex-wrap mx-auto">
+                    <div className="flex justify-center lg:gap-4 lg:p-8 gap-2 p-2 text-center flex-wrap">
 
                         {animeList!.map((v: any, i: number) => {
                             return (
-                                <div className="w-44 shadow-md bg-teal-900 rounded-md text-white p-1" key={i}>
+                                <div className="w-40 shadow-md bg-teal-900 rounded-md text-white p-1" key={i}>
                                     <div className="h-10 bg-teal-900">{v.anime_name}</div>
                                     <img src={`../../uploads/${v.image}`} className="w-full h-44 object-fill" />
                                     <div>Ratings: {v.ratings}</div>
